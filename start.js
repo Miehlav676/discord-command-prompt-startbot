@@ -69,7 +69,7 @@ function startBot() {
   }
 
   // Modify this line to start your bot with the correct command and arguments
-  bot = spawn('node', ['path/to/your/bot/file.js'], {
+  bot = spawn('node', ['index.cjs'], {
     stdio: ['pipe', 'pipe', 'pipe', 'pipe', 'pipe', 'pipe', process.stderr]
   });
 
