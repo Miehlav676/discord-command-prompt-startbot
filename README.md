@@ -8,6 +8,8 @@
 - View system information such as server uptime, total memory, CPU cores, and OS info
 - Monitor bot uptime, memory usage, and status (`Online`/`Offline`)
 - Colorful terminal interface with box borders and formatted text using `Chalk` library
+- https://who.likes-throwing.rocks/64tvbZDGR.png
+- https://who.likes-throwing.rocks/64tuZFWo9.png
 
 ## Requirements
 
