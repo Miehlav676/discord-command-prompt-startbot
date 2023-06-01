@@ -26,7 +26,7 @@ const box = blessed.box({
     fg: 'white',
     bg: 'black',
     border: {
-      fg: '#98c379' // Green color for the box border, customize as desired
+      fg: '#98c379' // Green color for the box border
     },
   }
 });
@@ -46,7 +46,7 @@ const consoleBox = blessed.box({
     fg: 'white',
     bg: 'black', 
     border: {
-      fg: '#98c379' // Green color for the console box border, customize as desired
+      fg: '#98c379' // Green color for the console box border
     },
   }
 });
@@ -59,7 +59,7 @@ let bot = null;
 let botStartTime = null;
 let lastButtonUsed = null;
 let botStatus = 'Offline';
-let botUsername = 'InterstellarBot#1234'; // Add your bot's username here
+let botUsername = 'InterstellarBot#1234'; // Replace with your bot's username
 
 // Function to start the Discord bot.
 function startBot() {
@@ -68,10 +68,11 @@ function startBot() {
     return;
   }
 
-  // Start the Discord bot in a separate child process.
-  bot = spawn('node', ['C:\\Users\\Miehl\\Desktop\\Interstellar\\index.cjs'], {
+  // Modify this line to start your bot with the correct command and arguments
+  bot = spawn('node', ['path/to/your/bot/file.js'], {
     stdio: ['pipe', 'pipe', 'pipe', 'pipe', 'pipe', 'pipe', process.stderr]
   });
+
   botStartTime = moment();
   botStatus = 'Online';
 
@@ -143,7 +144,7 @@ figlet.text('Interstellar', {
     console.dir(err);
     return;
   }
-  title = chalk.magenta(data); // Purple, customize as desired
+  title = chalk.magenta(data); // Purple
 });
 
 // Function to update the box content with system and bot stats
