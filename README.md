@@ -10,6 +10,7 @@
 - Colorful terminal interface with box borders and formatted text using `Chalk` library
 ![Alt Text](https://who.likes-throwing.rocks/64tHoW7Ij.png)
 ![Alt Text](https://who.likes-throwing.rocks/64tHXgZw4.png)
+![Alt Text](https://who.likes-throwing.rocks/64tVFgOZc.png)
 
 ## Requirements
 
