@@ -25,8 +25,11 @@
 
 ## Errors
 
-![Alt Text](https://who.likes-throwing.rocks/64uNfdBOs.png)
 - if you get an error its possible you need to change this line to your bots main path.
+![Alt Text](https://who.likes-throwing.rocks/64uNfdBOs.png)
+
+- Downgrade to a CommonJS-compatible version of the library. Some libraries, such as Chalk, have recently switched to ESM-only. You can downgrade to an older version of the library that still supports CommonJS
+![Alt Text](https://who.likes-throwing.rocks/64uVRjBfx.png)
 
 ## Usage
 
