@@ -26,7 +26,7 @@
 
 1. Clone or download this repository.
 2. Install the required packages by running the following command: npm install
-3. Run the script using Node.js: node start.js 
+3. Run the script using Node.js: once you have finished settings everything up simply click the startbot.bat 
 
 ## Errors
 
