@@ -76,6 +76,18 @@ Check out these customization possibilities directly in the code:
 
 Feel free to customize the script according to your needs. You can modify the colors, text formatting, or add additional functionality to suit your bot's requirements.
 
+## Support and Error Reporting
+
+If you encounter any issues or errors while using the Interstellar Discord Bot, please do the following:
+
+1. Check the [documentation](https://github.com/Miehlav676/discord-command-prompt-startbot/blob/main/README.md) and make sure the error is not due to a misunderstanding of how to use the bot.
+2. Check the [issue tracker](https://github.com/Miehlav676/discord-command-prompt-startbot/issues) on the GitHub repository to see if the issue has already been reported. If it has, you can add any additional information you have, or simply follow the issue for updates.
+3. If the issue has not been reported yet, please create a new issue in the issue tracker, providing as much detail as possible. Include any error messages you receive, what you were doing when the error occurred, and any other information that might be relevant.
+
+You can also reach out to me directly for help:
+
+Discord Username: `Canada#1234`
+
 ## License
 
 This project is licensed under the `MIT License`.
