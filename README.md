@@ -50,6 +50,30 @@ You can also press `Ctrl+C` to stop the bot and exit.
 
 ## Customize
 
+// Modify the bot's command prefix:
+// Replace the '$' with your desired prefix.
+`${chalk.magenta('Bot Prefix:')} ${chalk.green('$')}\n`
+
+// Modify the bot's username:
+// Replace 'InterstellarBot#1234' with your bot's username.
+let botUsername = 'InterstellarBot#1234';
+
+// Modify the bot's command and system stats display:
+// This is where the content of the display box is set.
+// Modify this to change how the box's contents are arranged or to add additional information.
+box.setContent(`...`);
+
+// Change how the bot is started:
+// Replace 'node' and ['index.cjs'] with your bot's startup command and its arguments.
+bot = spawn('node', ['index.cjs'], {...});
+
+Check out these customization possibilities directly in the code:
+
+- [Modifying bot's command prefix](https://github.com/Miehlav676/discord-command-prompt-startbot/blob/main/README.md#L162)
+- [Modifying bot's username](https://github.com/Miehlav676/discord-command-prompt-startbot/blob/main/README.md#L62)
+- [Modifying the bot's command and system stats display](https://github.com/Miehlav676/discord-command-prompt-startbot/blob/main/README.md#L163)
+- [Changing how the bot is started](https://github.com/Miehlav676/discord-command-prompt-startbot/blob/main/README.md#L135)
+
 Feel free to customize the script according to your needs. You can modify the colors, text formatting, or add additional functionality to suit your bot's requirements.
 
 ## License
