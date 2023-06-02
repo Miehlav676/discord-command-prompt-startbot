@@ -8,25 +8,33 @@
 - View system information such as server uptime, total memory, CPU cores, and OS info
 - Monitor bot uptime, memory usage, and status (`Online`/`Offline`)
 - Colorful terminal interface with box borders and formatted text using `Chalk` library
-![Alt Text](https://who.likes-throwing.rocks/64tHoW7Ij.png)
-![Alt Text](https://who.likes-throwing.rocks/64tHXgZw4.png)
-![Alt Text](https://who.likes-throwing.rocks/64tVFgOZc.png)
+
+![Alt Text](https://who.likes-throwing.rocks/64A0JswaP.png)
+![Alt Text](https://who.likes-throwing.rocks/64A169plq.png)
+![Alt Text](https://who.likes-throwing.rocks/64A1KD3M1.png)
 
 ## Requirements
 
-- `Node.js` (v14 or higher)
-- `NPM` (Node Package Manager)
-- npm install blessed@latest
-- npm install chalk@4.1.0
-- npm install moment@latest
-- npm install figlet@latest
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [NPM](https://www.npmjs.com/) (Node Package Manager)
 
+Please note that the package `child_process` is a built-in module in Node.js, so you don't need to install it separately. this is just incase.
 
 ## Installation
 
 1. Clone or download this repository.
 2. Install the required packages by running the following command: npm install
 3. Run the script using Node.js: once you have finished setting everything up to your liking simply double click the startbot.bat 
+4. To install the required packages, run the following command:
+
+npm install blessed
+npm install chalk
+npm install child_process
+npm install os
+npm install moment
+npm install figlet
+npm install fs
+npm install path
 
 ## Errors
 
@@ -49,10 +57,6 @@ Once the script is running, you can control the bot using the following keystrok
 You can also press `Ctrl+C` to stop the bot and exit.
 
 ## Customize
-
-// Modify the bot's command prefix:
-// Replace the '$' with your desired prefix.
-`${chalk.magenta('Bot Prefix:')} ${chalk.green('$')}\n`
 
 // Modify the bot's username:
 // Replace 'InterstellarBot#1234' with your bot's username.
