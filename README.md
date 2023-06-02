@@ -23,8 +23,8 @@
 2. Install the required packages by running the following command: npm install
 
 
-3. Replace the bot file path in `startBot()` function with the correct path to your bot's main file.
-4. Run the script using Node.js: node start.js
+3. Run the script using Node.js: node start.js 
+![Alt Text](https://who.likes-throwing.rocks/64uNfdBOs.png) if you get an error its possible you need to change this line to your bots main path.
 
 
 ## Usage
