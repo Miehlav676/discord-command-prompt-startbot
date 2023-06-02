@@ -16,6 +16,11 @@
 
 - `Node.js` (v14 or higher)
 - `NPM` (Node Package Manager)
+- npm install blessed@latest
+- npm install chalk@4.1.0
+- npm install moment@latest
+- npm install figlet@latest
+
 
 ## Installation
 
