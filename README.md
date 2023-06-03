@@ -18,13 +18,13 @@
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [NPM](https://www.npmjs.com/) (Node Package Manager)
 
-Please note that the package `child_process` is a built-in module in Node.js, so you don't need to install it separately. this is just incase.
+Please note that the package `child_process` is a built-in module in Node.js, so you don't need to install it separately. This is just in case.
 
 ## Installation
 
 1. Clone or download this repository.
-2. Install the required packages by running the following command: npm install
-3. Run the script using Node.js: once you have finished setting everything up to your liking simply double click the startbot.bat 
+2. Install the required packages by running the following command: `npm install`.
+3. Run the script using Node.js: once you have finished setting everything up to your liking, simply double click the `startbot.bat` file.
 4. To install the required packages, run the following command:
 
 npm install blessed
@@ -38,10 +38,9 @@ npm install path
 
 ## Errors
 
-- if you get an error its possible you need to change this line to your bots main path.
-![Alt Text](https://who.likes-throwing.rocks/64uNfdBOs.png)
+- If you get an error, it's possible you need to change [this line](https://github.com/Miehlav676/discord-command-prompt-startbot/blob/main/README.md#L41) to your bot's main path.
 
-- Downgrade to a CommonJS-compatible version of the library. Some libraries, such as Chalk, have recently switched to ESM-only. You can downgrade to an older version of the library that still supports CommonJS
+- Downgrade to a CommonJS-compatible version of the library. Some libraries, such as Chalk, have recently switched to ESM-only. You can downgrade to an older version of the library that still supports CommonJS.
 
 ![Alt Text](https://who.likes-throwing.rocks/64uVRjBfx.png)
 
@@ -57,6 +56,8 @@ Once the script is running, you can control the bot using the following keystrok
 You can also press `Ctrl+C` to stop the bot and exit.
 
 ## Customize
+
+// Modify the bot's default prefix: let prefix = "'"; // Default prefix
 
 // Modify the bot's username:
 // Replace 'InterstellarBot#1234' with your bot's username.
