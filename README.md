@@ -1,4 +1,4 @@
-# Interstellar Discord Bot
+# Miehlav start bot
 
 `Interstellar Discord Bot` is a Node.js-based bot script that allows you to easily control and manage your Discord bot from the command line. The script provides a terminal-based interface where you can start, stop, restart, and refresh your bot, as well as view system and bot stats.
 
