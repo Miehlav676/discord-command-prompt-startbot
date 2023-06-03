@@ -1,0 +1,16 @@
+Added the fs module and path module to the list of required modules.
+Adjusted the height of the box and consoleBox elements to accommodate the status bar at the bottom (height: '100%-1').
+Added commandsFolderPath variable to store the path to the commands folder.
+Added prefix variable to store the default prefix for the bot (set to ' by default).
+Added commandsCount variable to store the count of loaded commands.
+Modified the startBot function to set the PREFIX environment variable to the prefix value.
+Added stopBot function to stop the Discord bot and reset the botStartTime.
+Modified the restartBot function to call stopBot and start the bot after a delay.
+Added writeToConsole function to append data to the console box and update commandsCount and prefix if changed.
+Modified the updateStats function to accept commandsCount as a parameter and update the commands count and prefix display.
+Modified the layout and positioning of the boxes to accommodate the status bar at the bottom.
+Updated the ASCII art title with the new bot name.
+Added a handler to exit the process when pressing escape, q, or Ctrl+C.
+Added key event handlers for 's', 'x', 'r', and 'l' keys to trigger corresponding actions.
+Enabled mouse input for the screen.
+Added an interval to auto-update stats every second.
